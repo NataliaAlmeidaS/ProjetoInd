@@ -26,12 +26,12 @@ a{
 
 }
 .livro{
-    height: 100%;
+    height: 92%;
     width: 100%;
 }
 .comeco{
-    height: 69%;
-    width: 101%;
+    height: 62%;
+    width: 112%;
     margin-top: 66px;
 }
 .estrutura{
@@ -103,11 +103,104 @@ flex-wrap: wrap;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 30px;
+   
 }
+.content span, p{
+    font-size: 20px;
+
+}
+.titulo{
+    color: #d114ae;
+    
+}
+.titulo h1{
+    font-size:  3.70em;
+    line-height: 1;
+    font-weight: 700;
+}
+.titulo span{
+    
+    font-style: italic;
+}
+
+
 .col-wide{
     grid-column: 1 / -1;
 }
+.caracteristicas{
+     display: flex;
+    align-items: flex-start;
+    
+    
 
+}
+.caracteristicas > div{
+    width: 80px;
+    text-align: center;
+    background: linear-gradient(135deg, #f26ffd, #ffbfe7);
+    border-radius: 5px;
+    box-shadow:5px 5px 15px 0px rgba(44, 44, 44, 0.15); 
+    position: relative;
+    margin: 20px;
+    
+}
+.caracteristicas > div:first-child{
+    margin-right: 30px;
+}
+.caracteristicas span{
+    display: block;
+    color: #b055cc;
+}
+ .caracteristicas .numero{
+  
+  font-size: 3em;
+  line-height: 1;
+  margin: 10px  10px;
+    
+}
+ .rotulo{
+    background:  white;
+    border-radius: 0 0 5px 5px;
+    padding: 5px 0;
+    position: relative;
+    top: 2px;
+    
+}
+.destaque{
+    font-size: 18px;
+    color: #3b82df;
+    max-width: 16em;
+}
+ .citacao{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
+    background: linear-gradient(135deg ,#dd30ec, #ffbfe7);
+
+    
+    
+}
+.citacao p{
+    font-size: 1.5em;
+    font-style: italic;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    color: white;
+    
+}
+.atributos{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
+    background: linear-gradient(135deg ,#dd30ec, #ffbfe7);
+}
+.atributos li{
+    color: white;
+    font-family: Courier, monospace;
+    font-size: 1.2em;
+    padding: 15px;
+}
 .anuncios{
     grid-area: anuncios;
 }
@@ -121,7 +214,7 @@ flex-wrap: wrap;
 
 .footer{
     grid-area: footer;
-    background:  linear-gradient(135deg, #8844ee, #b07dfb);;
+    background:  linear-gradient(135deg, #f26ffd, #ffbfe7);
    
 }
 .footer p{
