@@ -27,7 +27,7 @@ a{
 }
 .livro{
     height: 92%;
-    width: 100%;
+    width: 60%;
 }
 .comeco{
     height: 62%;
@@ -173,9 +173,12 @@ flex-wrap: wrap;
 }
  .citacao{
     padding: 30px;
+    /* align-self: start; */
     border-radius: 5px;
     box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
     background: linear-gradient(135deg ,#dd30ec, #ffbfe7);
+    margin-left: 350px;
+    width: 350px;
 
     
     
@@ -191,6 +194,7 @@ flex-wrap: wrap;
 }
 .atributos{
     padding: 30px;
+    
     border-radius: 5px;
     box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
     background: linear-gradient(135deg ,#dd30ec, #ffbfe7);
@@ -200,6 +204,10 @@ flex-wrap: wrap;
     font-family: Courier, monospace;
     font-size: 1.2em;
     padding: 15px;
+    border-bottom: 2px solid #b055cc;
+}
+.atributos li + li{
+    border-top: 2px solid #b055cc;
 }
 .anuncios{
     grid-area: anuncios;
